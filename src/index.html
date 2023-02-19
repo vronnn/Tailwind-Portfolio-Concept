@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>My Page</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 border md:border"
+    >
+      <div id="navbar" class="container relative">
+        <div class="flex items-center justify-between relative py-6">
+          <!-- logo -->
+          <div class="px-12">
+            <a href="" class="font-semibold italic font-mono text-2xl block"
+              >zen</a
+            >
+          </div>
+          <div class="px-12 flex md:px-0">
+            <button
+              title="hamburger"
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="flex flex-col lg:hidden"
+            >
+              <span class="w-7 h-[2px] bg-slate-700 my-1"></span>
+              <span class="w-7 h-[2px] bg-slate-700 my-1"></span>
+              <span class="w-7 h-[2px] bg-slate-700 my-1"></span>
+            </button>
+
+            <nav id="nav-menu" class="hidden lg:block">
+              <ul class="lg:flex">
+                <li class="group">
+                  <a href="" class="text-base text-slate-700 font-semibold mx-6"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a href="" class="text-base text-slate-700 font-semibold mx-6"
+                    >About</a
+                  >
+                </li>
+                <li class="group flex">
+                  <a href="" class="text-base text-slate-700 font-semibold mx-6"
+                    >Projects
+                  </a>
+                  <div class="w-6 -ml-5 translate-y-[2px]">
+                    <img src="/img/down-red.png" alt="" />
+                  </div>
+                </li>
+                <li class="group">
+                  <a href="" class="text-base text-slate-700 font-semibold mx-6"
+                    >Clients</a
+                  >
+                </li>
+                <li class="group">
+                  <a href="" class="text-base text-slate-700 font-semibold mx-6"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="px-10 hidden lg:block">
+            <a href="" class="border-2 border-slate-700 py-2 px-4 font-semibold"
+              >Lets Chat</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- content -->
+    <section class="container py-32 lg:py-28">
+      <div class="flex flex-wrap">
+        <!-- left box -->
+        <div class="flex flex-col md:border-t-2 md:w-1/2">
+          <div class="mb-8 w-full md:py-8 lg:pt-16">
+            <div class="px-12">
+              <h1 class="text-5xl font-bold text-slate-800 lg:text-6xl">
+                Hi! I am
+                <div class="inline-flex -translate-y-2">
+                  <span
+                    class="uppercase text-sm bg-indigo-400 py-2 px-4 rounded-full md:text-xs lg:text-sm"
+                    >frontend</span
+                  >
+                </div>
+
+                Zhafran Dzaky
+              </h1>
+              <p class="mt-5 text-slate-600">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                aut numquam nam.
+              </p>
+              <div class="flex mt-6">
+                <div class="py-2 px-4 bg-red-400 text-slate-100 font-semibold">
+                  <a href="">Contact Me</a>
+                </div>
+                <div class="py-2 pl-5 pr-1 font-semibold text-slate-700">
+                  <a href="">Projects</a>
+                </div>
+                <div
+                  class="w-6 bg-[url('/img/right-up.png')] bg-contain bg-no-repeat translate-y-[10px] opacity-60"
+                ></div>
+              </div>
+            </div>
+            <div class="mt-10 px-12">
+              <div class="flex">
+                <div class="w-2/3">
+                  <h3 class="text-3xl font-bold text-slate-700">84+</h3>
+                  <p class="w-28 text-slate-700 text-sm tracking-wide">
+                    Clients on work worldwide
+                  </p>
+                </div>
+                <div class="w-24 -translate-y-4">
+                  <img
+                    src="/img/logo.jpg"
+                    alt=""
+                    class="rounded-full rotate-[18deg]"
+                  />
+                </div>
+              </div>
+              <div class="flex pt-4">
+                <div class="mr-2 w-1/2">
+                  <h3 class="text-3xl font-bold text-slate-700">572</h3>
+                  <p class="w-28 text-slate-700 text-sm tracking-wide">
+                    Project Done
+                  </p>
+                </div>
+                <div class="w-1/2 mr-4">
+                  <h3 class="text-3xl font-bold text-slate-700">Contact</h3>
+                  <p class="w-28 text-slate-700 text-sm tracking-wide">
+                    zhafrandzaky@gmail.com
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Statistic -->
+          <div
+            class="w-full h-full bg-slate-800 text-slate-100 hidden md:flex md:justify-evenly md:items-center xl:justify-around"
+          >
+            <div>
+              <h3 class="text-md font-bold lg:w-3/4 lg:text-xl">
+                Projects Statistic 2022
+              </h3>
+              <div class="mt-2 lg:mt-4 text-center lg:text-left">
+                <a
+                  href=""
+                  class="px-3 py-1 bg-yellow-400 text-slate-700 text-sm font-semibold lg:py-2 lg:px-4"
+                  >Know More</a
+                >
+              </div>
+            </div>
+            <div class="hidden lg:block">
+              <div class="flex justify-between">
+                <h3 class="text-sm mr-4 lg:text-lg xl:mr-20">Website Dev</h3>
+                <p class="text-sm lg:text-lg">74</p>
+              </div>
+              <hr class="opacity-30" />
+              <div class="flex justify-between">
+                <h3 class="text-sm mr-4 lg:text-lg xl:mr-20">Website Design</h3>
+                <p class="text-sm lg:text-lg">65</p>
+              </div>
+              <hr class="opacity-30" />
+              <div class="flex justify-between">
+                <h3 class="text-sm mr-4 lg:text-lg xl:mr-20">Mobile App Dev</h3>
+                <p class="text-sm lg:text-lg">47</p>
+              </div>
+              <hr class="opacity-30" />
+            </div>
+          </div>
+        </div>
+
+        <!-- right box -->
+        <div class="relative w-full px-12 md:w-1/2 md:px-0">
+          <div
+            class="bg-[#ded1c1] flex flex-col justify-center items-center px-4 pt-10"
+          >
+            <p
+              class="text-center text-xl w-96 -mb-16 text-slate-700 hidden sm:block md:mb-0 md:w-80"
+            >
+              Lorem ipsum dolor sit amet
+              <span class="font-bold">consectetur</span> adipisicing
+              <span class="font-bold">elit.</span>
+              Eveniet, <span class="font-bold"> aperiam</span>.
+            </p>
+            <img
+              src="/img/hero.png"
+              alt=""
+              class="w-full -mt-32 md:mt-0 lg:w-3/4 xl:w-3/5"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="/dist/script.js"></script>
+  </body>
+</html>
