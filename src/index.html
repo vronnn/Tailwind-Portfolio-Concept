@@ -21,11 +21,11 @@
           </div>
           <div class="px-12 flex md:px-0">
             <button
-              title="hamburger"
               id="hamburger"
+              title="hamburger"
               name="hamburger"
               type="button"
-              class="flex flex-col lg:hidden"
+              class="flex flex-col lg:hidden transition duration-300 ease-in-out"
             >
               <span class="w-7 h-[2px] bg-slate-700 my-1"></span>
               <span class="w-7 h-[2px] bg-slate-700 my-1"></span>
@@ -33,32 +33,51 @@
             </button>
 
             <nav id="nav-menu" class="hidden lg:block">
-              <ul class="lg:flex">
-                <li class="group">
-                  <a href="" class="text-base text-slate-700 font-semibold mx-6"
+              <ul class="block lg:flex">
+                <li class="group flex justify-start cursor-pointer">
+                  <img src="/img/home.png" alt="" class="w-6 mr-4 lg:hidden" />
+                  <a
+                    href=""
+                    class="text-base text-slate-700 font-semibold lg:mx-6"
                     >Home</a
                   >
                 </li>
-                <li class="group">
-                  <a href="" class="text-base text-slate-700 font-semibold mx-6"
+                <li class="group flex justify-start cursor-pointer">
+                  <img src="/img/user.png" alt="" class="w-6 mr-4 lg:hidden" />
+                  <a
+                    href=""
+                    class="text-base text-slate-700 font-semibold lg:mx-6"
                     >About</a
                   >
                 </li>
-                <li class="group flex">
-                  <a href="" class="text-base text-slate-700 font-semibold mx-6"
-                    >Projects
+                <li class="group flex justify-start cursor-pointer">
+                  <img src="/img/layer.png" alt="" class="w-6 mr-4 lg:hidden" />
+                  <a
+                    href=""
+                    class="text-base text-slate-700 font-semibold lg:mx-6"
+                    >Project
                   </a>
-                  <div class="w-6 -ml-5 translate-y-[2px]">
-                    <img src="/img/down-red.png" alt="" />
-                  </div>
+                  <!-- <div class="w-6 -ml-5 translate-y-[2px]"> -->
+                  <!-- <img src="/img/down-red.png" alt="" /> -->
+                  <!-- </div> -->
                 </li>
-                <li class="group">
-                  <a href="" class="text-base text-slate-700 font-semibold mx-6"
+                <li class="group flex justify-start cursor-pointer">
+                  <img
+                    src="/img/customer.png"
+                    alt=""
+                    class="w-6 mr-4 lg:hidden"
+                  />
+                  <a
+                    href=""
+                    class="text-base text-slate-700 font-semibold lg:mx-6"
                     >Clients</a
                   >
                 </li>
-                <li class="group">
-                  <a href="" class="text-base text-slate-700 font-semibold mx-6"
+                <li class="group flex justify-start cursor-pointer">
+                  <img src="/img/chat.png" alt="" class="w-6 mr-4 lg:hidden" />
+                  <a
+                    href=""
+                    class="text-base text-slate-700 font-semibold lg:mx-6"
                     >Contact</a
                   >
                 </li>
@@ -74,8 +93,8 @@
       </div>
     </header>
     <!-- content -->
-    <section class="container py-32 lg:py-28">
-      <div class="flex flex-wrap">
+    <section class="container mb-10">
+      <div class="flex flex-wrap pt-32 lg:pt-28">
         <!-- left box -->
         <div class="flex flex-col md:border-t-2 md:w-1/2">
           <div class="mb-8 w-full md:py-8 lg:pt-16">
@@ -156,17 +175,17 @@
               </div>
             </div>
             <div class="hidden lg:block">
-              <div class="flex justify-between">
+              <div class="flex justify-between xl:my-1">
                 <h3 class="text-sm mr-4 lg:text-lg xl:mr-20">Website Dev</h3>
                 <p class="text-sm lg:text-lg">74</p>
               </div>
               <hr class="opacity-30" />
-              <div class="flex justify-between">
+              <div class="flex justify-between xl:my-1">
                 <h3 class="text-sm mr-4 lg:text-lg xl:mr-20">Website Design</h3>
                 <p class="text-sm lg:text-lg">65</p>
               </div>
               <hr class="opacity-30" />
-              <div class="flex justify-between">
+              <div class="flex justify-between xl:my-1">
                 <h3 class="text-sm mr-4 lg:text-lg xl:mr-20">Mobile App Dev</h3>
                 <p class="text-sm lg:text-lg">47</p>
               </div>
@@ -197,6 +216,9 @@
         </div>
       </div>
     </section>
+
+    <!-- About & Comment Sec -->
+    <article></article>
 
     <script src="/dist/script.js"></script>
   </body>
